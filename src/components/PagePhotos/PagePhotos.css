@@ -1,0 +1,33 @@
+.page-photos > .container {
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.page-photos > .container > .title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.page-photos > .container > .photos {
+  height: 65%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.page-photos > .container > .button-container {
+  text-align: center;
+  height: 15%;
+}
+
+.page-photos > .container > .button-container > button {
+  padding: 10px 70px;
+}

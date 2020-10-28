@@ -1,0 +1,26 @@
+.photo {
+  position: relative;
+  display: inline-block;
+  margin: 3px;
+  width: 150px;
+  height: 150px;
+}
+
+.photo > .title-container {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 150px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.photo > .title-container > .title {
+  color: rgb(255, 255, 255);
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+
+.photo:hover {
+  cursor: pointer;
+  outline: tomato 3px solid;
+}

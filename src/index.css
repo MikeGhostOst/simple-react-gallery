@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+body * {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-background {
+  background: rgb(29, 46, 60);
+}
+
+.window-background {
+  background: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-auto {
+  margin: auto
+}
+
+.no-button-styles {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}

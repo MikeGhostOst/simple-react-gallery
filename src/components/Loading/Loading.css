@@ -1,0 +1,11 @@
+.loading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.loading > .container {
+  color: white;
+  font-size: 2em;
+}
